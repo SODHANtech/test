@@ -1,0 +1,30 @@
+{
+  "name": "indias-lithium-paradox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "2D cartoon in a 3D painted world animated short for India's Lithium Paradox",
+  "scripts": {
+    "start": "remotion preview src/index.ts",
+    "build": "remotion render src/index.ts LithiumShort out/video.mp4",
+    "still": "remotion still src/index.ts LithiumShort out/still.png"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/postprocessing": "^2.16.2",
+    "@remotion/bundler": "^4.0.200",
+    "@remotion/cli": "^4.0.200",
+    "@remotion/renderer": "^4.0.200",
+    "@remotion/three": "^4.0.200",
+    "postprocessing": "^6.35.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.200",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.165.0",
+    "typescript": "^5.4.5"
+  }
+}
