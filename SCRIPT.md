@@ -15,33 +15,43 @@
 
 ---
 
-## Final Script (~65 seconds, 150-165 WPM pace)
+## Approved Audio Production Profile
+- **Voice Model:** `en-US-GuyNeural` (Microsoft Neural Engine)
+- **Rate Modifier:** `+15%` (crisp explainer tempo, natural conversational cadence)
+- **Master Files:** [`voice.mp3`](file:///e:/llm/voice.mp3) / [`guy_neural.mp3`](file:///e:/llm/guy_neural.mp3)
+- **Duration:** 56.86 seconds (1,706 frames @ 30 FPS — optimal 30–60s Shorts retention sweet spot)
+- **Subtitles/Timings:** [`words.vtt`](file:///e:/llm/words.vtt)
+- **Generation Command:**
+  ```powershell
+  uvx edge-tts --file "script.txt" --voice "en-US-GuyNeural" --rate="+15%" --write-media "voice.mp3" --write-subtitles "words.vtt"
+  ```
 
-### [HOOK | 0–5s]
-India announced 5.9 million tonnes of lithium in Jammu. But there was a catch.  
+---
+
+## Master Voiceover Script (56.86 seconds)
+
+### [HOOK | 0:00 – 0:05]
+India announced 5.9 million tonnes of lithium in Jammu.  
+But there was a catch.  
 It wasn't 5.9 million tonnes of lithium.  
 
-### [THE REVELATION | 5–15s]
-It was an early-stage estimate of lithium-bearing ore, with an average grade of just 583 parts per million.  
-And finding the ore is only step one.  
+### [THE REVELATION | 0:05 – 0:18]
+It was early-stage ore, with an average grade of just 583 parts per million.  
+That is zero point zero five percent.  
+And finding ore is only step one.  
 
-### [THE MECHANISM | 15–32s]
-You see, mining a mineral doesn't make it ready for a battery.  
-In one common hard-rock processing route, the ore is crushed, concentrated, roasted at over a thousand degrees, chemically treated, leached and purified.  
-What comes out is a high-purity lithium compound.  
-And even that needs to be converted into specialised battery cathode materials.  
+### [THE MECHANISM | 0:18 – 0:31]
+Raw rock cannot enter a battery.  
+To turn that ore into battery chemicals, it must be crushed, concentrated, roasted at a thousand degrees, chemically leached, and purified.  
+Only then do you get battery-grade materials.  
 
-### [THE GEOPOLITICAL PROBLEM | 32–43s]
-Here's where things get interesting.  
-China dominates lithium chemical processing, while Indonesia leads nickel refining.  
-The world doesn't just need mineral deposits. It needs the industrial machinery and chemistry to process them.  
+### [THE GEOPOLITICAL TWIST | 0:31 – 0:42]
+Here is the twist:  
+China refines 65% of the world's lithium.  
+Indonesia refines 40% of its nickel.  
+The real monopoly isn't the rocks in the ground. It is the refineries.  
 
-### [THE TWIST | 43–55s]
-That's why, on November 4, 2026, India approved a ₹2,814-crore scheme to support four future processing plants.  
-Two for lithium. Two for nickel.  
-With a 30% capital subsidy.  
-
-### [THE CALLBACK | 55–68s]
+### [THE CALLBACK & PUNCHLINE | 0:42 – 0:56]
+That is why India approved a 2,814 crore rupee scheme for four future processing plants, with a 30 percent capital subsidy.  
 Because discovering a mineral gives you potential.  
-But building the ability to process it gives you something far more valuable.  
-A place in the supply chain of the future.  
+Processing it gives you power.  
