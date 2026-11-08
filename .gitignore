@@ -1,6 +1,7 @@
 claude-animated-shorts/
 node_modules/
-out/
-.remotion/
 master/
-
+out/
+**/out/
+.remotion/
+**/.remotion/
